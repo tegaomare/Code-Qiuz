@@ -16,3 +16,11 @@ var questionIndex = 0;
 var timerInterval;
 var timeLeft = 60; // Total time in seconds
 var highScores = [];
+
+//USERS INTERACTION
+startBtn.addEventListener("click", startQuiz);
+choicesEl.addEventListener("click", answerQuestion);
+saveBtn.addEventListener("click", saveScore);
+playAgainBtn.addEventListener("click", playAgain);
+quitBtn.addEventListener("click", quitGame);
+
