@@ -23,7 +23,40 @@ choicesEl.addEventListener("click", answerQuestion);
 saveBtn.addEventListener("click", saveScore);
 playAgainBtn.addEventListener("click", playAgain);
 quitBtn.addEventListener("click", quitGame);
-
+ 
+// Quiz Questions
+ var questions = [
+    {
+      question: "Which HTML tag is used to define a hyperlink?",
+      choices: ['<a>', '<p>','<h1>', '<div>'],
+      answer: '<a>'
+    },
+    {
+      question: "Which programming language is commonly used for web development?",
+      choices: ["Java", "Python", "JavaScript", "C++"],
+      answer: "JavaScript"
+    },
+    {
+        question: "Which JavaScript library is commonly used to make HTTP requests to third-party APIs?",
+        choices: ['React.js', ' jQuery','Axios', ' Express.js'],
+        answer: 'Axios'
+      },
+      {
+        question: "Which social media API allows developers to authenticate users and access their social media data?",
+        choices: ['Twitter API', 'Facebook Graph API', 'Instagram API', 'LinkedIn API'],
+        answer: 'Facebook Graph API'
+      },
+      {
+        question: "Which HTTP method is typically used for retrieving data from an API?",
+        choices: ['POST','DELETE','PUT', 'GET'],
+        answer: 'GET'
+      },
+      {
+        question: "What property is used to change the background color of an element in CSS?",
+        choices: ['background-style','background-color', 'color', 'background-image'],
+        answer: 'background-color'
+      },
+  ];
 //FUNCTIONS
 function startQuiz() {
     startBtn.style.display = "none";
