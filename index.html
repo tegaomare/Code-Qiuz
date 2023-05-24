@@ -5,8 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code_Quiz</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    
+    <h1>Coding Quiz Challenges</h1>
+  <div id="quiz-container">
+        <p>
+         Unleash your coding genius and conquer the Challenges that lie ahead!
+         Welcome to the ultimate coding quiz where mastery meets innovation. let the quest begin!
+        </p>
+    <h2 id="question"></h2>
+    <ul id="choices"></ul>
+    <p id="feedback"></p>
+  </div>
+  <button id="start-btn">Start Quiz</button>
+  <div id="timer">Time: <span id="time-left"></span></div>
+  <div id="game-over" style="display: none;">
+    <h2>Game Over!</h2>
+    <label for="initials">Enter Initials:</label>
+    <input type="text" id="initials">
+    <button id="save-btn">Save Score</button>
+    <h3>High Scores</h3>
+    <ul id="high-scores"></ul>
+    <div>
+      <button id="play-again-btn">Play Again</button>
+      <button id="quit-btn">Quit</button>
+    </div>
+  </div>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
