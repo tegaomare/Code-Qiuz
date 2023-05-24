@@ -11,3 +11,8 @@ var highScoresEl = document.getElementById("high-scores");
 var playAgainBtn = document.getElementById("play-again-btn");
 var quitBtn = document.getElementById("quit-btn");
 
+//DATA
+var questionIndex = 0;
+var timerInterval;
+var timeLeft = 60; // Total time in seconds
+var highScores = [];
