@@ -25,7 +25,7 @@ playAgainBtn.addEventListener("click", playAgain);
 quitBtn.addEventListener("click", quitGame);
  
 // Quiz Questions
- var questions = [
+var questions = [
     {
       question: "Which HTML tag is used to define a hyperlink?",
       choices: ['<a>', '<p>','<h1>', '<div>'],
