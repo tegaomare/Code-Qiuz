@@ -1,0 +1,38 @@
+:root{
+    --main_color: purple;
+  }
+  
+*{
+    background-color:  lightgrey ;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+h1, h2{
+    display:flex;
+    justify-content: center;
+    color:blue;
+}
+p{
+    text-align: center;
+}
+
+button:hover, #submit:hover{
+    background-color:blue;
+    border-color:black;
+    color:white;
+}
+[id^=answer] {
+    width: 87px;
+    height: 23px;
+    margin: 10px auto;
+    
+}
+.answers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 56%;
+}
