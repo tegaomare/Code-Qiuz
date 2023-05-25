@@ -94,7 +94,7 @@ button{
     margin-top: 20px;
 }
 #high-scores{
-    isplay: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
