@@ -17,16 +17,23 @@ header{
    padding: 20px;
 
 }
-h1, h2{
+h1, h2, h3{
     display:flex;
     justify-content: center;
     color:var(--text_color);
+}
+#info{
+    padding-top: 226px;
+}
+#question{
+    padding-top: 226px;
 }
 #timer{
     color:var(--text_color);
 }
 p{
     text-align: center;
+    color: var(--text_color);
 }
 
 button:hover, #submit:hover{
@@ -39,4 +46,35 @@ button:hover, #submit:hover{
     flex-direction: column;
     align-items: center;
     width: 56%;
+    margin: 23px auto;
+}
+[for^=initials]{
+    margin: 23px auto;
+    display: flex;
+    justify-content: center;
+}
+[type^=text]{
+    margin: 23px auto;
+    display: flex;
+    justify-content: center;
+}
+#save-btn{
+    margin: 23px auto;
+    display: flex;
+    justify-content: center;
+}
+#play-again-btn{
+    margin: 23px auto;
+    display: flex;
+    justify-content: center;
+}
+#quit-btn{
+    margin: 23px auto;
+    display: flex;
+    justify-content: center;
+}
+#high-scores{
+    margin: 23px auto;
+    display: flex;
+    justify-content: center;
 }
