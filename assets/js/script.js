@@ -66,7 +66,6 @@ function startQuiz() {
     timerInterval = setInterval(updateTimer, 1000);
     displayQuestion();
   }
-
   function displayQuestion() {
     var currentQuestion = questions[questionIndex];
     questionEl.textContent = currentQuestion.question;
