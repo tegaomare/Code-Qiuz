@@ -137,19 +137,19 @@ function startQuiz() {
 
     // Update the high score board
     displayHighScores();
+    
   }
 
   function displayHighScores() {
     highScoresEl.innerHTML = "";
-
     for (var i = 0; i < highScores.length; i++) {
       var player = highScores[i];
       var li = document.createElement("li");
       li.textContent = player.initials + " - " + player.score;
       highScoresEl.appendChild(li);
+      
     }
   }
-
   function playAgain() {
     questionIndex = 0;
     timeLeft = 60;
