@@ -31,13 +31,7 @@ button:hover, #submit:hover{
     border-color:black;
     color:white;
 }
-[id^=answer] {
-    width: 87px;
-    height: 23px;
-    margin: 10px auto;
-    
-}
-.answers{
+#choices{
     display: flex;
     flex-direction: column;
     align-items: center;
