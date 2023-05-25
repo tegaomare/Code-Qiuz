@@ -161,4 +161,6 @@ function startQuiz() {
     timeLeft = 60;
     gameOverEl.style.display = "none";
     startBtn.style.display = "block";
+    clearInfo.style.display = "block";
+   clearQuote.style.display = "block";
   }
