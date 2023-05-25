@@ -1,5 +1,5 @@
 :root{
-    --main_color: purple;
+    --text_color: blue;
   }
   
 *{
@@ -20,14 +20,17 @@ header{
 h1, h2{
     display:flex;
     justify-content: center;
-    color:blue;
+    color:var(--text_color);
+}
+#timer{
+    color:var(--text_color);
 }
 p{
     text-align: center;
 }
 
 button:hover, #submit:hover{
-    background-color:blue;
+    background-color:var(--text_color);
     border-color:black;
     color:white;
 }
