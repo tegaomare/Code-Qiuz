@@ -75,14 +75,14 @@ function startQuiz() {
 
     for (var i = 0; i < currentQuestion.choices.length; i++) {
       var choice = currentQuestion.choices[i];
-      var li = document.createElement("li");
-      li.textContent = choice;
-      choicesEl.appendChild(li);
+      var btn = document.createElement("button");
+      btn.textContent = choice;
+      choicesEl.appendChild(btn);
     }
   }
 
   function answerQuestion(event) {
-    if (event.target.matches("li")) {
+    if (event.target.matches("button")) {
       var selectedAnswer = event.target.textContent;
       var currentQuestion = questions[questionIndex];
 
