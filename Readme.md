@@ -11,7 +11,7 @@ https://tegaomare.github.io/Code-Qiuz/
  
 ## Usage Instructions
 
-AS A User you will take a timed quiz on JavaScript fundamentals, that stores high scores, so that you can gauge my progress compared to my peers
+AS A User you will take a timed quiz on JavaScript fundamentals, that stores high scores, so that you can store your progress and compared to your peers.
 
 ### Specifications
 This app runs in the browser and  feature dynamically updated HTML and CSS powered by JavaScript. 
