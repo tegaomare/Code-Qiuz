@@ -93,3 +93,11 @@ button{
     width: 56%;
     margin-top: 20px;
 }
+#high-scores{
+    border-width:6px;
+    border-style:solid;
+    border-color:var(--text_color);
+    border-style: outset;
+    border-radius: 50%;
+    
+}
