@@ -7,7 +7,7 @@ A timed coding quiz with multiple-choice questions.
 N/A
 
 ## App link
-https://tegaomare.github.io/Code_Quiz/
+https://tegaomare.github.io/Code-Qiuz/
  
 ## Usage Instructions
 
@@ -17,7 +17,8 @@ AS A User you will take a timed quiz on JavaScript fundamentals, that stores hig
 This app runs in the browser and  feature dynamically updated HTML and CSS powered by JavaScript. 
 
 ## Credits
-https://github.com/croberts27/code-quiz-hw-4/blob/main/script.js
-
+branchwag/
+vlexaega/
+www.w3schools.com
 ## License 
 MIT license
