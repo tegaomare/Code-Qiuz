@@ -10,7 +10,8 @@ var saveBtn = document.getElementById("save-btn");
 var highScoresEl = document.getElementById("high-scores");
 var playAgainBtn = document.getElementById("play-again-btn");
 var quitBtn = document.getElementById("quit-btn");
-
+var clearInfo = document.getElementById("info");
+var clearQuote = document.getElementById("quote");
 //DATA
 var questionIndex = 0;
 var timerInterval;
@@ -60,6 +61,8 @@ var questions = [
 //FUNCTIONS
 function startQuiz() {
     startBtn.style.display = "none";
+    clearInfo.style.display = "none";
+    clearQuote.style.display = "none";
     timerInterval = setInterval(updateTimer, 1000);
     displayQuestion();
   }
@@ -104,13 +107,11 @@ function startQuiz() {
   function updateTimer() {
     timeLeft--;
     timeLeftEl.textContent = timeLeft;
-
     if (timeLeft <= 0) {
       // Timer reached 0
       gameOver();
     }
   }
-
   function gameOver() {
     clearInterval(timerInterval);
     questionEl.textContent = "";
