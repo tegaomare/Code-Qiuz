@@ -12,6 +12,7 @@ var playAgainBtn = document.getElementById("play-again-btn");
 var quitBtn = document.getElementById("quit-btn");
 var clearInfo = document.getElementById("info");
 var clearQuote = document.getElementById("quote");
+var clearscoreIntro = document.getElementById("scoreIntro");
 //DATA
 var questionIndex = 0;
 var timerInterval;
@@ -63,6 +64,7 @@ function startQuiz() {
     startBtn.style.display = "none";
     clearInfo.style.display = "none";
     clearQuote.style.display = "none";
+    clearscoreIntro.style.display = "none";
     timerInterval = setInterval(updateTimer, 1000);
     displayQuestion();
   }
@@ -162,4 +164,5 @@ function startQuiz() {
     startBtn.style.display = "block";
     clearInfo.style.display = "block";
    clearQuote.style.display = "block";
+   clearscoreIntro.style.display = "block";
   }
