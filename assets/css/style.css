@@ -36,9 +36,15 @@ h1, h2, h3{
 p{
     text-align: center;
     color: var(--text_color);
+    font-size: large;
 }
 
-button:hover, #submit:hover{
+#start-btn{
+    display:flex;
+    justify-content: left;
+    margin-top: -241px;
+}
+button:hover, #start-btn:hover{
     background-color:var(--text_color);
     border-color:black;
     color:white;
@@ -79,4 +85,11 @@ button:hover, #submit:hover{
     margin: 23px auto;
     display: flex;
     justify-content: center;
+}
+button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 56%;
+    margin-top: 20px;
 }
