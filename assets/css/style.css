@@ -21,6 +21,7 @@ h1, h2, h3{
     display:flex;
     justify-content: center;
     color:var(--text_color);
+    font-size: x-large;
 }
 #info{
     padding-top: 226px;
@@ -30,6 +31,7 @@ h1, h2, h3{
 }
 #timer{
     color:var(--text_color);
+    font-size: x-large;
 }
 p{
     text-align: center;
